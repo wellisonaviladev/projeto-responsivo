@@ -2,6 +2,7 @@
 
 :root {
     --cor-destaque: #C92071;
+    --cor-cinza-padrao: #474747;
 }
 
 * {
@@ -37,3 +38,38 @@ header {
 }
 }
 
+main {
+    background: linear-gradient(#B5B6F2, #efefff);
+    padding: 63px 0 80px;
+
+    form{
+        width: 315px;
+        height: 572px;
+        margin: 0 auto;
+        background-color: #FFF;
+        padding: 30px;
+
+        .text {
+
+            h1 {
+                font-size: 22px;
+                line-height: 34px;
+                color: #1f1f1f;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 14px;
+                letter-spacing: .25px;
+                color: var(--cor-cinza-padrao);
+                line-height: 24px;
+                text-align: center;
+
+                a {
+                    border-bottom: solid 0.25px var(--cor-cinza-padrao);
+                }
+            }
+        }
+    }
+}
