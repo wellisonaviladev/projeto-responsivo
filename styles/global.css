@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+    list-style-type: none;
 }
 
 html, body {
@@ -71,5 +72,38 @@ main {
                 }
             }
         }
+    }
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #FFF;
+    padding: 50px 20px 45px;
+
+    .logo-footer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 20px;
+
+        span {
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: .25px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        margin-bottom: 40px;
     }
 }
