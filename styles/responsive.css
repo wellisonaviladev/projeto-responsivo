@@ -1,0 +1,35 @@
+@media(width >= 375px){
+    footer {
+        padding: 50px 12.5% 45px;
+
+        .box-logo-social {
+
+
+            p{
+                max-width: 445px;
+            }
+        }
+
+        .nav {
+            justify-content: space-between;
+        }
+    }
+}
+
+@media(width >= 720px){
+    footer {
+        padding: 50px 100px 45px;
+    }
+
+    .nav {
+        flex-direction: column;
+
+        .links {
+
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    }
+}
